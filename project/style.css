@@ -24,15 +24,6 @@ body {
   border-radius: 6px;
   transition: all 0.2s ease-in-out;
 }
-.card:hover {
-  transform: scale(1.1);
-  background-color: #ffd300;
-  rotate: 360deg;
-  cursor: crosshair;
-  .popuphl{
-    display: block;
-  }
-}
 .cardimage {
   width: 65%;
   height: 65%;
@@ -59,27 +50,6 @@ body {
   border-radius: 6px;
   padding: 1%;
   box-shadow: 7px 7px 7px #000000;
-}
-@media screen and (max-width: 1366px) {
-  .card{
-    width: 30%;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .card{
-    width: 40%;
-  }
-  .cardimage{
-    height: 50%;
-  }
-}
-@media screen and (max-width: 414px) {
-  .card{
-    width: 80%;
-  }
-  .cardimage{
-    height: 50%;
-  }
 }
 .popuphl{
     display: none;
