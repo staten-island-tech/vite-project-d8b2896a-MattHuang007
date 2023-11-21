@@ -56,7 +56,28 @@ image:"Add later",
     image:"Add later",
 },
 {
-    name:""
-}
+    name:"Quickfang",
+    class:"Hunter",
+    rarity:"Legendary",
+    slot:"Heavy",
+    type:"Sword",
+    image:"Add later",
+},
+{
+    name:"Eternity's Edge",
+    class:"Warlock",
+    rarity:"Legendary",
+    slot:"Heavy",
+    type:"Sword",
+    image:"Add later"
+},
+{
+    name:"Edge of Concurrence",
+    class:"Hunter",
+    rarity:"Exotic",
+    slot:"Energy",
+    type:"Glaive",
+    image:"Add later",
+},
 ]
 
