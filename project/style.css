@@ -26,27 +26,26 @@ body {
   justify-content: flex-start;
   padding: 4px;
   box-sizing: border-box;
+}
+.icon {
+  object-fit: cover;
+  border: 1px solid gray;
+}
 
-  .icon {
-    object-fit: cover;
-    border: 1px solid gray;
-  }
-
-  .details {
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-    margin-left: 4px;
-  }
-  .name {
-    font-size: larger;
-  }
-  .rarity-Exotic {
-    color: #e6c028;
-  }
-  .rarity-Legendary {
-    color: #9656b9;
-  }
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-left: 4px;
+}
+.name {
+  font-size: larger;
+}
+.rarity-Exotic {
+  color: #e6c028;
+}
+.rarity-Legendary {
+  color: #9656b9;
 }
 .card-img {
   width: 81px;
