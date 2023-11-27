@@ -18,5 +18,11 @@ function createCardDetails(weapon){
  const detailWrapper=
  document.createElement("div");
  detailWrapper.className="details";
- 
+ [nameElement, categories].forEach((el)=>detailWrapper.appendChild(el));
+ return detailWrapper;
+}
+function createCard(weapons){
+    const cardElement= document.createElement("div");
+    cardElement.className="card";
+    const iconElement=document.createElement
 }
