@@ -70,3 +70,17 @@ rarityFilterSelect.addEventListener("change",(event)=>{
     query["rarity"]=event.target.value;
     filterWeaponsByQuery(query);
 });
+slotFilterSelect.addEventListener("change", (event) => {
+    query["slot"] = event.target.value;
+    filterWeaponsByQuery(query);
+  });
+
+  typeFilterSelect.addEventListener("change", (event) => {
+    query["type"] = event.target.value;
+    filterWeaponsByQuery(query);
+  });
+  
+  function updateCards(weaponList) {
+    cardContainer.innerHTML = "";
+    generateCards(weaponList);
+  }
