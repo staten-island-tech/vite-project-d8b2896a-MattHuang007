@@ -47,6 +47,38 @@ const exotics = [
     type: "Glaive",
     image: "https://www.bungie.net/common/destiny2_content/icons/6301bf4e6d9d9728aaf5f9bea06c6a1a.jpg",
   },
+  {
+    name:"Necrochasm",
+    class:"all",
+    rarity:"Exotic",
+    slot:"Kinetic",
+    type:"Auto Rifle",
+    image:"Add later",
+  },
+  {
+    name:"Arbalest",
+    class:"all",
+    rarity:"Exotic",
+    slot:"Kinetic",
+    type:"Linear Fusion Rifle",
+    image:"Add later",
+  },
+  {
+    name:"Merciless",
+    class:"all",
+    rarity:"Exotic",
+    slot:"Energy",
+    type:"Fusion Rifle",
+    image:"Add later",
+  },
+  {
+    name:"Anarchy",
+    class:"all",
+    rarity:"Exotic",
+    slot:"Power",
+    type:"Grenade Launcher",
+    image:"Add later",
+  }
 ];
 
 const legendaries = [
