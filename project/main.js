@@ -20,7 +20,7 @@ const exotics = [
     class: "All",
     rarity: "Exotic",
     slot: "Kinetic",
-    type: "sidearm",
+    type: "Sidearm",
     image: "https://www.bungie.net/common/destiny2_content/icons/b86c24934b3ec9954218ecfa0992aeb2.jpg",
   },
   {
