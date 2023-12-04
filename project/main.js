@@ -140,7 +140,7 @@ const exotics = [
 const legendaries = [
     {name:"Other Half",
         class: "All",
-        rarity: "legendary",
+        rarity: "Legendary",
         slot: "Power",
         type: "sword",
         image: "https://www.bungie.net/common/destiny2_content/icons/f730bec7be3701d9ccc902dfacc4fbd4.jpg",
@@ -148,7 +148,7 @@ const legendaries = [
       {
         name: "Crown Splitter",
         class: "Titan",
-        rarity: "legendary",
+        rarity: "Legendary",
         slot: "Power",
         type: "sword",
         image: "https://www.bungie.net/common/destiny2_content/icons/98a3ea161c6c591d523636bf83491997.jpg",
