@@ -53,7 +53,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Auto Rifle",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/52e8bb636771f4731da3f73f06fcad04.jpg",
   },
   {
     name:"Arbalest",
@@ -61,7 +61,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Linear Fusion Rifle",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/c95ea75fe09d9f090a88d5322923d07a.jpg",
   },
   {
     name:"Merciless",
@@ -69,7 +69,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Energy",
     type:"Fusion Rifle",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/f3714197408d2c8935a2ce7be69a210c.jpg",
   },
   {
     name:"Anarchy",
@@ -77,7 +77,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Power",
     type:"Grenade Launcher",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/f24e3336a1142847d6bf47b56b492eea.jpg",
   },
   {
     name:"Outbreak Perfected",
@@ -85,7 +85,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Pulse Rifle",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/a1b6a5f3e52878610397249986300b23.jpg",
   },
   {
     name:"Ager's Scepter",
@@ -93,7 +93,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Trace Rifle",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/252db75c7ea885016f17895e2a154503.jpg",
   },
   {
     name:"Osteo Striga",
@@ -101,7 +101,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Submachine Gun",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/2752ee2761149f004df20e78749c1bab.jpg",
   },
   {
     name:"Grand Overture",
@@ -109,7 +109,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Power",
     type:"Machine Gun",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/bc76e54c9cd266c09d8e08036ebcfd42.jpg",
   },
   {
     name:"Ticuu's Divination",
@@ -117,7 +117,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Energy",
     type:"Combat Bow",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/39ef1673136f2f463879a83a44f11b0d.jpg",
   },
   {
     name:"Dead Man's Tale",
@@ -125,7 +125,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Scout Rifle",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/cfc2c246cfd404d749fffbfe3ae3dfec.jpg",
   },
   {
     name:"Sunshot",
@@ -133,7 +133,7 @@ const exotics = [
     rarity:"Exotic",
     slot:"Energy",
     type:"Hand Cannon",
-    image:"Add later",
+    image:"https://www.bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
   },
 ];
 
@@ -175,7 +175,7 @@ const legendaries = [
         rarity:"Legendary",
         slot:"Energy",
         type:"Submachine Gun",
-        image:"add later",
+        image:"https://www.bungie.net/common/destiny2_content/icons/40909558f2b45d65917eb0c9e245f403.jpg",
       },
       {
         name:"Forbearance",
@@ -183,7 +183,7 @@ const legendaries = [
         rarity:"Legendary",
         slot:"Energy",
         type:"Grenade Launcher",
-        image:"add later",
+        image:"https://www.bungie.net/common/destiny2_content/icons/2222167aadddbfe4954b9710784c1f6e.jpg",
       },
       {
         name:"Succession",
@@ -191,7 +191,7 @@ const legendaries = [
         rarity:"Legendary",
         slot:"Kinetic",
         type:"Sniper Rifle",
-        image:"add later",
+        image:"https://www.bungie.net/common/destiny2_content/icons/86b418d0b9f753883931354137ede858.jpg",
       },
 ];
 
