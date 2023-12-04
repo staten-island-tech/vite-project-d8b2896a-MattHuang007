@@ -9,7 +9,7 @@ const exotics = [
   },
   {
     name: "Conditional Finality",
-    class: "all",
+    class: "All",
     rarity: "Exotic",
     slot: "Kinetic",
     type: "Shotgun",
@@ -17,7 +17,7 @@ const exotics = [
   },
   {
     name: "Rat King",
-    class: "all",
+    class: "All",
     rarity: "Exotic",
     slot: "Kinetic",
     type: "sidearm",
@@ -25,7 +25,7 @@ const exotics = [
   },
   {
     name: "Heartshadow",
-    class: "all",
+    class: "All",
     rarity: "Exotic",
     slot: "Power",
     type: "sword",
@@ -49,7 +49,7 @@ const exotics = [
   },
   {
     name:"Necrochasm",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Auto Rifle",
@@ -57,7 +57,7 @@ const exotics = [
   },
   {
     name:"Arbalest",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Linear Fusion Rifle",
@@ -65,7 +65,7 @@ const exotics = [
   },
   {
     name:"Merciless",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Energy",
     type:"Fusion Rifle",
@@ -73,7 +73,7 @@ const exotics = [
   },
   {
     name:"Anarchy",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Power",
     type:"Grenade Launcher",
@@ -81,7 +81,7 @@ const exotics = [
   },
   {
     name:"Outbreak Perfected",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Pulse Rifle",
@@ -89,7 +89,7 @@ const exotics = [
   },
   {
     name:"Ager's Scepter",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Trace Rifle",
@@ -97,7 +97,7 @@ const exotics = [
   },
   {
     name:"Osteo Striga",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Submachine Gun",
@@ -105,7 +105,7 @@ const exotics = [
   },
   {
     name:"Grand Overture",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Power",
     type:"Machine Gun",
@@ -113,7 +113,7 @@ const exotics = [
   },
   {
     name:"Ticuu's Divination",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Energy",
     type:"Combat Bow",
@@ -121,7 +121,7 @@ const exotics = [
   },
   {
     name:"Dead Man's Tale",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Kinetic",
     type:"Scout Rifle",
@@ -129,7 +129,7 @@ const exotics = [
   },
   {
     name:"Sunshot",
-    class:"all",
+    class:"All",
     rarity:"Exotic",
     slot:"Energy",
     type:"Hand Cannon",
@@ -139,7 +139,7 @@ const exotics = [
 
 const legendaries = [
     {name:"Other Half",
-        class: "all",
+        class: "All",
         rarity: "legendary",
         slot: "Power",
         type: "sword",
@@ -171,7 +171,7 @@ const legendaries = [
       },
       {
         name:"CALUS Mini-Tool",
-        class:"all",
+        class:"All",
         rarity:"Legendary",
         slot:"Energy",
         type:"Submachine Gun",
@@ -179,7 +179,7 @@ const legendaries = [
       },
       {
         name:"Forbearance",
-        class:"all",
+        class:"All",
         rarity:"Legendary",
         slot:"Energy",
         type:"Grenade Launcher",
@@ -187,7 +187,7 @@ const legendaries = [
       },
       {
         name:"Succession",
-        class:"all",
+        class:"All",
         rarity:"Legendary",
         slot:"Kinetic",
         type:"Sniper Rifle",
