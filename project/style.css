@@ -1,14 +1,38 @@
 html {
-  height: 100%;
   width: 100%;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
 }
 
 body {
-  height: 100%;
   width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.theme {
+  position: sticky;
+  top: 0;
+}
+
+.dark {
+  background-color: black;
+}
+
+.light {
+  background-color: rgb(255, 255, 255);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card-container {
@@ -20,33 +44,34 @@ body {
 .card {
   width: 320px;
   height: 80px;
-  background-color: white;
   border: 1px solid gray;
   display: flex;
   justify-content: flex-start;
   padding: 4px;
   box-sizing: border-box;
-}
-.icon {
-  object-fit: cover;
-  border: 1px solid gray;
+
+  .icon {
+    object-fit: cover;
+    border: 1px solid gray;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-left: 4px;
+  }
+  .name {
+    font-size: larger;
+  }
+  .rarity-Exotic {
+    color: #e6c028;
+  }
+  .rarity-Legendary {
+    color: #9656b9;
+  }
 }
 
-.details {
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  margin-left: 4px;
-}
-.name {
-  font-size: larger;
-}
-.rarity-Exotic {
-  color: #e6c028;
-}
-.rarity-Legendary {
-  color: #9656b9;
-}
 .card-img {
   width: 81px;
   height: 81px;
