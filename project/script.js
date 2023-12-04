@@ -1,4 +1,4 @@
-import WEAPONS from "./weapons";
+import WEAPONS from "./main.js";
 
 console.log(WEAPONS.length);
 const cardContainer = document.querySelector(".card-container");
