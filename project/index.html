@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import roboto font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer type="module"></script>
+  </head>
+
+  <body>
+    <label class="theme">
+      <input type="checkbox" checked="checked" />
+      <span> Dark Mode</span>
+    </label>
+    <div class="filter">
+      <form>
+        <label for="class-filter">Class:</label>
+        <select id="class-filter">
+          <option value="All">All</option>
+          <option value="Titan">Titan</option>
+          <option value="Hunter">Hunter</option>
+          <option value="Warlock">Warlock</option>
+        </select>
+      </form>
+      <form>
+        <label for="rarity-filter">Rarity:</label>
+        <select id="rarity-filter">
+          <option value="All">All</option>
+          <option value="Exotic">Exotic</option>
+          <option value="Legendary">Legendary</option>
+        </select>
+      </form>
+
+      <form>
+        <label for="slot-filter">Slots:</label>
+        <select id="slot-filter">
+          <option value="All">All</option>
+          <option value="Energy">Energy</option>
+          <option value="Kinetic">Kinetic</option>
+          <option value="Power">Power</option>
+        </select>
+      </form>
+
+      <form>
+        <label for="type-filter">Slots:</label>
+        <select id="type-filter">
+          <option value="All">All</option>
+          <option value="Glaive">Glaive</option>
+          <option value="Auto Rifle">Auto Rifle</option>
+          <option value="Combat Bow">Combat Bow</option>
+          <option value="Fusion Rifle">Fusion Rifle</option>
+          <option value="Grenade Launcher">Grenade Launcher</option>
+          <option value="Hand Cannon">Hand Cannon</option>
+          <option value="Linear Fusion Rifle">Linear Fusion Rifle</option>
+          <option value="Pulse Rifle">Pulse Rifle</option>
+          <option value="Scout Rifle">Scout Rifle</option>
+          <option value="Shotgun">Shotgun</option>
+          <option value="Sidearm">Sidearm</option>
+          <option value="Sniper Rifle">Sniper Rifle</option>
+          <option value="Submachine Gun">Submachine Gun</option>
+          <option value="Trace Rifle">Trace Rifle</option>
+        </select>
+      </form>
+    </div>
+    <div class="card-container">
+      <!-- cards will be generated here -->
+    </div>
+  </body>
+</html>
