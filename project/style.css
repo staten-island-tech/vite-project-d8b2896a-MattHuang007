@@ -77,3 +77,12 @@ body {
   height: 81px;
   object-fit: cover;
 }
+.header {
+  text-align: center;
+  font-size: 40px;
+  background-color: #f9e29c;
+  margin: 2% 20%;
+  border-radius: 6px;
+  padding: 1%;
+  box-shadow: 7px 7px 7px #000000;
+}
