@@ -1,4 +1,5 @@
 import WEAPONS from "./main.js";
+import "../css/style.css";
 
 console.log(WEAPONS.length);
 const cardContainer = document.querySelector(".card-container");
