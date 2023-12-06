@@ -66,7 +66,6 @@ function filterWeaponsByQuery(query) {
   }
   updateCards(filteredWeapons);
 }
-
 // update class query
 classFilterSelect.addEventListener("change", (event) => {
   query["class"] = event.target.value;
