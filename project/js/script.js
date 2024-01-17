@@ -1,7 +1,7 @@
 import WEAPONS from "./main.js";
 import "../css/style.css";
 
-console.log(WEAPONS.length);
+// console.log(WEAPONS.length);
 const cardContainer = document.querySelector(".card-container");
 const query = {};
 
@@ -17,12 +17,28 @@ function createCardDetails(weapon) {
   categories.innerText = [weapon.class, weapon.rarity, weapon.slot, weapon.type]
     .filter((text) => text !== null)
     .join(" / ");
-
+  /* 
+  const texts = [weapon.class, weapon.rarity, weapon.slot, weapon.type];
+  const hasText = [];
+  for (let i = 0; i < texts.length; i++) {
+    if (texts[i] !== null) {
+      hasText.push(texts[i]);
+    }
+  }
+  categories.innerText=hasText.join(" / ");
+ */
   const detailWrapper = document.createElement("div");
   detailWrapper.className = "details " + (isDarkMode ? "dark" : "light");
-
+  /* 
+  if (isDarkMode === true) {
+    detailWrapper.className += "dark";
+  } else {
+    detailWrapper.className += "light";
+  }
+ */
   [nameElement, categories].forEach((el) => detailWrapper.appendChild(el));
-
+  /* detailWrapper.appendChild(nameElement);
+  detailWrapper.appendChild(categories); */
   return detailWrapper;
 }
 
@@ -30,7 +46,13 @@ function createCardDetails(weapon) {
 function createCard(weapon) {
   const cardElement = document.createElement("div");
   cardElement.className = "card " + (isDarkMode ? "dark" : "light");
-
+  /* 
+  if (isDarkMode === true) {
+    cardElement.className += "dark";
+  } else {
+    cardElement.className += "light";
+  }
+ */
   const iconElement = document.createElement("img");
   iconElement.src = weapon.image;
   iconElement.alt = weapon.name;
@@ -38,7 +60,8 @@ function createCard(weapon) {
 
   const detailWrapper = createCardDetails(weapon);
   [iconElement, detailWrapper].forEach((el) => cardElement.appendChild(el));
-
+  /* cardElement.appendChild(iconElement);
+  cardElement.appendChild(detailWrapper); */
   return cardElement;
 }
 
@@ -92,7 +115,7 @@ typeFilterSelect.addEventListener("change", (event) => {
 
 // refresh card list
 function updateCards(weaponList) {
-  console.log("update");
+  // console.log("update");
   cardContainer.innerHTML = "";
   generateCards(weaponList);
 }
@@ -100,11 +123,25 @@ function updateCards(weaponList) {
 // update theme when clicked, re-render cards
 const themeToggle = document.querySelector(".theme > input");
 themeToggle.addEventListener("click", (event) => {
-  console.log(event.target.checked);
+  // console.log(event.target.checked);
   isDarkMode = event.target.checked;
   filterWeaponsByQuery(query);
 
   const html = document.querySelector("html");
   html.style.backgroundColor = isDarkMode ? "black" : "white";
   html.style.color = isDarkMode ? "white" : "black";
+  /* 
+  if (isDarkMode === true) {
+    html.style.color = "white";
+  } else {
+    html.style.color = "black";
+  }
+ */
+  /* 
+  if (isDarkMode === true) {
+    html.style.backgroundColor= "black";
+  } else {
+    html.style.backgroundColor= "white";
+  }
+ */
 });
